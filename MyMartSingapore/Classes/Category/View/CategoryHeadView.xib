@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="pB8-Ql-1oj" customClass="HomeHeadView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="lUD-lq-rWw">
+                    <rect key="frame" x="10" y="0.0" width="355" height="31"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="7hS-HM-THF"/>
+                    </constraints>
+                    <segments>
+                        <segment title="物品"/>
+                        <segment title="房产"/>
+                        <segment title="服务"/>
+                        <segment title="需求"/>
+                    </segments>
+                    <color key="tintColor" red="0.39607843139999999" green="0.85490196080000003" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </segmentedControl>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="lUD-lq-rWw" firstAttribute="leading" secondItem="pB8-Ql-1oj" secondAttribute="leading" constant="10" id="UEG-OA-mNY"/>
+                <constraint firstItem="lUD-lq-rWw" firstAttribute="top" secondItem="pB8-Ql-1oj" secondAttribute="top" id="ePY-tQ-dYd"/>
+                <constraint firstAttribute="trailing" secondItem="lUD-lq-rWw" secondAttribute="trailing" constant="10" id="qGY-Ry-5xw"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-370.5" y="-164"/>
+        </view>
+    </objects>
+</document>

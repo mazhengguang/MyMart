@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  MyMartSingapore
+//
+//  Created by xthink3 on 2017/1/18.
+//  Copyright © 2017年 xxkj. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIBarButtonItem+Extension.h"
+#import "UtilityHeader.h"
+#import "UIButton+Extension.h"
+#import "UIView+Extension.h"
+#import "LoginAndRegisterController.h"
+#endif
